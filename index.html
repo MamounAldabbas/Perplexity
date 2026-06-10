@@ -3,53 +3,77 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My GitHub Website</title>
+  <title>Rust Cohle | Home</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="hero">
+  <div class="cursor"></div>
+  <div class="cursor-follower"></div>
+
+  <header class="site-header">
     <nav class="nav">
-      <h1 class="logo">My Site</h1>
+      <a class="brand" href="index.html">Rust Cohle</a>
+      <button class="menu-toggle" aria-label="Toggle menu">Menu</button>
       <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact Me</a></li>
       </ul>
     </nav>
 
-    <section class="hero-content">
-      <p class="eyebrow">Welcome</p>
-      <h2>Your name or repository title goes here</h2>
-      <p>
-        This is a simple GitHub Pages starter site built with HTML, CSS, and JavaScript.
+    <section class="hero reveal">
+      <p class="eyebrow">Detective • Analyst • Investigator</p>
+      <h1>Solving complex cases with discipline, clarity, and precision.</h1>
+      <p class="lead">
+        I’m Rust Cohle, a detective based in Washington with 20 years of experience, 100+ cases handled, and a 99% success rate.
       </p>
-      <button id="ctaBtn">Click me</button>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="projects.html">View Projects</a>
+        <a class="btn btn-secondary" href="contact.html">Contact Me</a>
+      </div>
     </section>
   </header>
 
   <main>
-    <section id="about" class="card">
-      <h3>About</h3>
-      <p>Add a short bio, repo description, or what this site is for.</p>
+    <section class="stats-grid reveal">
+      <article class="stat-card">
+        <h2>20+</h2>
+        <p>Years in detective work</p>
+      </article>
+      <article class="stat-card">
+        <h2>100+</h2>
+        <p>Cases worked</p>
+      </article>
+      <article class="stat-card">
+        <h2>99%</h2>
+        <p>Success rate</p>
+      </article>
+      <article class="stat-card">
+        <h2>B.A.</h2>
+        <p>Criminology, California State University</p>
+      </article>
     </section>
 
-    <section id="projects" class="card">
-      <h3>Projects</h3>
-      <div id="projectList">
-        <p>Project 1</p>
-        <p>Project 2</p>
-        <p>Project 3</p>
-      </div>
-    </section>
-
-    <section id="contact" class="card">
-      <h3>Contact</h3>
-      <p>Email: you@example.com</p>
+    <section class="feature-grid reveal">
+      <article class="feature-card">
+        <h3>Case Strategy</h3>
+        <p>Clear thinking, careful observation, and evidence-led decision-making.</p>
+      </article>
+      <article class="feature-card">
+        <h3>Field Experience</h3>
+        <p>Years of real-world detective work across difficult and high-stakes cases.</p>
+      </article>
+      <article class="feature-card">
+        <h3>Trusted Results</h3>
+        <p>A strong record built on accuracy, persistence, and professional integrity.</p>
+      </article>
     </section>
   </main>
 
   <footer class="footer">
-    <p>© 2026 Your Name</p>
+    <p>© 2026 Rust Cohle</p>
   </footer>
 
   <script src="main.js"></script>
