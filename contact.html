@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rust Cohle | Contact Me</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="cursor"></div>
+  <div class="cursor-follower"></div>
+
+  <header class="page-header">
+    <nav class="nav">
+      <a class="brand" href="index.html">Rust Cohle</a>
+      <button class="menu-toggle" aria-label="Toggle menu">Menu</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html" class="active">Contact Me</a></li>
+      </ul>
+    </nav>
+
+    <section class="page-hero reveal">
+      <p class="eyebrow">Contact Me</p>
+      <h1>Let’s connect.</h1>
+    </section>
+  </header>
+
+  <main class="content-wrap reveal">
+    <section class="content-card">
+      <h2>Reach out</h2>
+      <form class="contact-form">
+        <label>
+          Name
+          <input type="text" placeholder="Your name" />
+        </label>
+        <label>
+          Email
+          <input type="email" placeholder="you@example.com" />
+        </label>
+        <label>
+          Message
+          <textarea rows="6" placeholder="Write your message..."></textarea>
+        </label>
+        <button type="button" class="btn btn-primary">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Rust Cohle</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
